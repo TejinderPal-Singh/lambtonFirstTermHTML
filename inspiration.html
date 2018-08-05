@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fitness Freakz</title>
+        <meta name="description" content="CollegeProject">
+        <meta name="keyword" content="FitnessFreakz">
+        <meta name="author" content="TejinderPalSingh">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/favyicon.gif">
+        <link rel="stylesheet" href="css/styleSheet.css">
+        <link rel="stylesheet" href="css/fa/css/all.css"> 
+        <script src="js/myScript.js"></script>
+</head>
+<body>
+         <header>
+            <!-- Grey Bar on Top-->
+            <div class="bar padding">
+                <p class="inline">Welcome to the official site of</p><h3 class="inline">&nbsp;Fitness Freakz&nbsp;</h3> |
+                <div class="rightFloat zero clearBoth">
+                    <p class="inline">&nbsp;<a href="#" class="black" onclick="chat()"><i class="fas fa-comments"></i> Live Suggestion(s)</a></p> | 
+                    <p class="inline">&nbsp;<a href="#" class="black" onclick="login()"><i class="fas fa-sign-in-alt"></i> Login</a> &nbsp;</p> |
+                    <p class="inline">&nbsp;<a href="#" class="black" onclick="subscribe()"><i class="fas fa-user-plus"></i> Create Account</a>&nbsp;</p> |
+                    <p class="inline">&nbsp;<a href="app.html" class="black"><i class="fas fa-download"></i> Get an App</a></p>
+                </div>
+            </div>
+        
+            <!--Navigation Bar-->
+            <div id="navBar">
+                <a href="index.html" class="inline"><img src="img/logo.png" id="logo"  class="marginLeft20 inline" alt="logo of FitnessFreakz"/></a>
+                <a href="index.html" class="decorationNone zero black inline"><div class="absolute top" id="name"><h1 class="zero">Fitness Freakz...!!</h1>
+                <h3 class="zero">a step towards Fitness</h3></div>  </a>
+                <div class="rightFloat clearBoth marginTop25">
+                    <nav class="large inline paddingRight navHeight shadow center whiteText ">
+                        <ul class="inline paddingLeft20 relative" id="mainNav">
+                            <li class="styleNone orangeHover inline"><a href="index.html" class="bold decorationNone whiteText"><i class="fa fa-1x fa-home"></i>&nbsp;Home</a> | </li>
+                            <li class="styleNone orangeHover inline"><a href="services.html" id="service" class="bold decorationNone whiteText"><i class="fa fa-1x fa-truck"></i> Services </a> | </li>
+                            <div class="large greyBackground none whiteText zero" id="subNav">
+                                <ul>
+                                    <li class="styleNone center padding"><a href="index.html" class="bold decorationNone orangeHover whiteText"> Cardio </a><hr></li>
+                                    <li class="styleNone padding"><a href="index.html" class="bold decorationNone orangeHover whiteText"> Weight Losing Program </a><hr></li>
+                                    <li class="styleNone padding"><a href="index.html" class="bold decorationNone orangeHover whiteText"> Personal Training </a></li>
+                                </ul>
+                            </div>
+                            <li class="styleNone orangeHover inline"><a href="education.html" class="bold decorationNone whiteText"><i class="fa fa-1x fa-graduation-cap"></i> Inspirations</a> | </li>
+                            <li class="styleNone orangeHover inline"><a href="about.html" class="bold decorationNone whiteText"><i class="fa fa-1x fa-book-open"></i> About</a> | </li>
+                            <li class="styleNone orangeHover inline"><a href="contact.html" class="bold decorationNone whiteText"><i class="fa fa-1x fa-map-marked-alt"></i> Contact</a></li>
+                        </ul>
+                           
+                        <div class="margin20 hide inline">
+                            <form class="inline" method="get">
+                                <input type="text" name="search" class="inline border0 whiteText padding" placeholder="  Search" id="search">
+                                <button type="submit" class="inline border0 red whiteText bold">&nbsp;Search&nbsp;<i class="fa padding fa-search"></i></button>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        
+            <!--login modal-->
+        <div class="modal border none" id="loginModal" >
+            <div class="modalHeader center">
+                <i class="fa fa-7x  fa-user-circle"></i>
+                <button class="closeButton xlarge padding" onclick="close()">&times;</button>
+            </div><br>
+            <div>
+                <form name="login" action="#" method="post">
+                    <label class="margin large">Email&nbsp;</label><input type="text" required class="padding  block formInput" placeholder="Enter your email here"><br>
+                    <label class="margin large">Password&nbsp;</label><input type="password" placeholder="Enter your password here" required class="block padding formInput marginBottom">
+                </form>
+            </div>
+        </div>
+        </header>
+    <main class="borderTop"> 
+        <section class="">
+            <div class=" marginSide marginTopBottom25">
+                <p class="xlarge inline ">"Training gives us an outlet for suppressed energies created by stress and thus tones the spirit just as exercise conditions the body."</p><span class="right marginTop35">-Arnold Schwarzenegger</span>
+            </div>
+            <div class="marginBottom35"><iframe src="https://www.youtube.com/embed/nfAcQFnei5I" width="99.5%" class="embedSocial" allow="autoplay; encrypted-media" allowfullscreen></iframe><p class="center xlarge bold underline skyBlue">If he can,you also can.</p></div>
+            <div class="borderBottom"><iframe src="https://www.youtube.com/embed/54JAqFPHwkE" width="99.5%" class="embedSocial" allow="autoplay; encrypted-media" allowfullscreen></iframe><p class="center xlarge bold underline redText">Insprational interview by Mr.Phil Heath</p>
+            <p class="center bold marginSide large">Phil Heath is the 7 Time Mr. Olympia record holder. In this interview, Patrick Bet-David asks Phil Heath about his journey to becoming a professional body builder, the biggest problem in bodybuilding and the best business conversation to keep the sport alive and thriving.</p>
+               </div><br>
+        </section>
+            <article class="marginSide">
+                <div><p class="bold center margin">What keeps people motivated in the gym year after year? Spoiler: It ain't wishful thinking or magical pixie dust.</p></div>
+
+                <p>I've been lifting weights for over half my life, but it's also a hobby that's made me next to no money while costing thousands in man-hours. So while it would look all hardcore for me to put on my tightest T-shirt and sneer, "I do this shit because it's hard!" the truth is that there are many times my own motivational fire needs a little stoking.</p>
+                <p>So how does a hard-training guy or girl like you stay motivated to hit the gym day after day, year after year? Look up your favorite fitness celebrities, and their posts may offer questionable and interesting advice that work for the short term, at best.</p>
+                <p>Truthfully, for motivational techniques to work, they must be both intrinsic (from within) and sustainable. You need concrete, no-nonsense ways to set you on the path toward a lifetime of hard, focused training.</p>
+                <p>So while having the gym staff call you Mr. Olympia may fire you right up for the upcoming leg workout, it probably loses its edge once the novelty wears off and they resume saying, "Hey, your membership is three months past due."</p>
+
+
+
+                <h3 class="bold center margin">Be Goal-Driven</h3>
+
+
+                <p>"I want a big bench press" is a lousy goal.</p>
+                <p>"I want to bench press 315 pounds" is better, but "I want to bench press 315 pounds in 16 weeks" is best of all.</p>
+                <p>See, for a goal to be effective, it must be specific, and more important, have a deadline.</p>
+
+
+                <h2 class="bold center margin">See, for a goal to be effective, it must be specific, and more important, have a deadline.</h2>
+
+                <p>I regret not setting more goals early in my training career. Of course, I always had "aspirations"—a look I wanted to achieve, strength levels I wanted to reach—but they were too "loosey goosey," and were seldom accompanied by a hard deadline. For example, "Get a big bench press" was in the back of my mind throughout high school. But because it was just a vague marker instead of a decisive goal, it took me forever to develop even a mediocre bench press.</p>
+                <p>Goals are important, but at the same time it's crucial not to become goal-obsessed. You simply will not reach every goal you set for yourself. I don't care how much of a machine you are; at some point, you'll fall short. The trick is to not get too down on yourself when it happens.</p>
+                <p>Remember that every failure also presents an opportunity to learn. Dust yourself off, reassess, and start anew.</p>
+
+
+                <h3 class="bold center margin">Review Your Goals Weekly, Even Daily</h3>
+
+                <p>Think of how many goals are made in a drunken haze every December 31. Now think how many of these goals are abandoned by mid-January.</p>
+
+
+                <p>I get it, life is busy. It's easy to be distracted by the sheer force of immediate survival—work, family, paying the cable bill, domestic duty—so that our less pressing—yet-more impactful—goals get swept aside.</p>
+                <p>Time management guru Stephen Covey based a whole system around this, noting how we tend to focus on unimportant and urgent things (like email) while important yet non-urgent tasks (like goal-setting) fall by the wayside. The result is a life spent putting out fires without accomplishing anything meaningful.</p>
+                <p>Break the cycle: Make reviewing your goals a priority. Some experts say setting aside time once each week is sufficient. I say if you want something badly—such as a new strength achievement—you should review your goals <i>daily</i>.</p>
+                <p>Just spend five minutes every morning reminding yourself how important your goal is to you, and how you'll eventually reach it, no matter what trivial challenges life might throw your way.</p>
+
+
+                Find a community that places your goals above your membership fee, where you feel "just right."
+
+
+                <p>The kind of place where the third toilet from the end always has a "Do Not Use EVER" sign attached to it. These gyms are often full of strong, serious people who are also generous. That's my kind of place. What's yours?</p>
+
+
+                <h3 class="bold center margin">Make it Bigger than You</h3>
+
+
+                <p>On the surface, working out is shallow.</p>
+                <p>A fitness lifestyle seems all about you and your goals, not to mention the requisite social media updates and pre- and post-workout selfies. These all eventually ring a little hollow, especially if you start to see it as "four hours a week of time that I could be spending with my kids."</p>
+                <p>Remove yourself from the equation and reframe your mindset. Change "I'm lifting for myself" to "I'm lifting to better provide for my family and live long enough to see my kids get married." What a powerful difference this makes.</p>
+                <p>It still boils down to you busting your ass and making a commitment. For some, this subtle switch of perspective is all it takes.</p>
+
+
+                <h3 class="bold center margin">Grow A Set</h3>
+
+                <p>At a certain point, you need to find your own motivation. Certain mind games and articles like this one can help reset your focus and maybe offer a little perspective, but at the end of the day <i>you</i> have gotta want it.</p>
+
+                <div class="bold center margin">
+                    At a certain point, you need to find your own motivation.
+                </div>
+
+                <p>If following a sensible diet and working out most days of the week is too much of a chore, then do something else. Do anything! Collect stamps. Carve ducks out of balsa wood. Become a beekeeper (bees are in decline, you know) or just spend more time whining on the Internet.</p>
+                <p>Here's the deal: Like it or not, being able to improve the health, function, and aesthetics of your physique is one of life's great privileges, and it's something that many people only dream of doing.</p>
+                <p>There's your motivation. Now don't waste it.</p>
+                <p class="bold right margin">Source of this article "bodybuilding.com"</p><br><br><br>
+                <br>
+            </article>
+        <hr>
+        <section class="center"><button class="padding20 paddingBottom0 bold underline redBackground whiteText large border0" onclick="subscribe()">Subscribe now</button></section>
+    </main>
+    
+        <footer>
+            <section class="blackBackground padding marginTop   marginBottom35">
+                <a href="facebook.com" class="decorationNone blueHover z-index whiteText"><i class="fab fa-3x margin fa-facebook"></i></a>  
+                <a href="twitter.com" class="decorationNone blueHover whiteText"><i class="fab fa-3x margin fa-twitter"></i></a>            
+                <a href="instagram.com" class="decorationNone blueHover whiteText"><i class="fab fa-3x margin fa-instagram"></i></a>            
+                <a href="youtube.com" class="decorationNone blueHover whiteText"><i class="fab fa-3x margin fa-youtube"></i></a>            
+                <p class="whiteText bold inline marginLeft30 italic">"Three months from now, you would thankful to yourself."&nbsp;<a href="#" class="blueHover pointer orange" onclick="subscribe()">Join Now</a></p>
+                <p class="whiteText bold inline marginLeft30 paddingLeft20"><span class="marginBottom">For more information</span><br>Contact us: 
+                    <a href="tel:+1(437)972-4379" class="decorationNone marginLeft30 magin20"> <i class="fas fa-phone"></i></a>
+                    <a href="maitlo:s.tejinderpalsingh@gmail.com" class="decorationNone margin20"> <i class="fas fa-envelope"></i></a></p>
+            </section>
+            <div class="footerBar">
+            <section class="border bar shadow zero bottom right">
+                <label id="footerLabel" class="inline zero">
+                    <h4 class="zero inline marginLeft marginTop">A Brampton based fitness club.</h4>
+                    <h5 class="zero marginLeft zero inline">"A step towards fitness"</h5>
+                </label>
+                <h5 class="padding zero white">A Project By Lovepreet Kaur, Prabhjot Singh Gill, Tejinder Pal Singh.</h5>
+                <a href="#"><img src="img/girlishBicep.gif" class="inline clearBoth imgAlign"  alt="Inspiring Animation" id=""></a>
+            </section>
+            </div>
+            
+
+        </footer>
+
+    
+    </body>
+    
+</html>    
