@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fitness Freakz</title>
+        <meta name="description" content="CollegeProject">
+        <meta name="keyword" content="FitnessFreakz">
+        <meta name="author" content="TejinderPalSingh">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/favyicon.gif">
+        <link rel="stylesheet" href="css/styleSheet.css">
+        <link rel="stylesheet" href="css/fa/css/all.css"> 
+        <script src="js/myScript.js"></script>
+</head>
+<body>
+        
+    <header>
+            <!-- Grey Bar on Top-->
+            <div class="bar padding">
+                <p class="inline">Welcome to the official site of</p><h3 class="inline">&nbsp;Fitness Freakz&nbsp;</h3> |
+                <p class="inline">&nbsp;<a href="#" class="black" onclick="chat"><i class="fas fa-comments"></i> Live Suggestion(s)</a></p> | 
+                <p class="inline">&nbsp;<a href="#" class="black"><i class="fas fa-language"></i> Language</a></p>
+                <div class="rightFloat clearBoth">
+                    <p class="inline">&nbsp;<a href="#" class="black" onclick="loginOpen()"><i class="fas fa-sign-in-alt"></i> Login</a> &nbsp;</p> |
+                    <p class="inline">&nbsp;<a href="#" class="black"><i class="fas fa-user-plus"></i> Create Account</a>&nbsp;</p> |
+                    <p class="inline">&nbsp;<a href="#" class="black"><i class="fas fa-download"></i> Get an App</a></p>
+                </div>
+            </div>
+        
+            <!--Navigation Bar-->
+            <div id="navBar">
+                <a href="index.html" class="inline"><img src="img/logo.png" id="logo"  class="marginLeft20 inline" alt="logo of FitnessFreakz"/></a>
+                <a href="index.html" class="decorationNone zero black inline"><div class="absolute top" id="name"><h1 class="zero">Fitness Freakz...!!</h1>
+                <h3 class="zero">a step towards Fitness</h3></div>  </a>
+                <div class="rightFloat clearBoth marginTop25">
+                    <nav class="large inline paddingRight shadow center whiteText ">
+                        <ul class="inline paddingLeft20 relative" id="mainNav">
+                            <li class="styleNone orangeHover inline"><a href="index.html" class="bold decorationNone whiteText"><i class="fa fa-1x fa-home"></i>&nbsp;Home</a> | </li>
+                            <li class="styleNone orangeHover inline"><a href="services.html" id="service" class="bold decorationNone whiteText"><i class="fa fa-1x fa-truck"></i> Services </a> | </li>
+                            <div class="large greyBackground none whiteText zero" id="subNav">
+                                <ul>
+                                    <li class="styleNone center padding"><a href="index.html" class="bold decorationNone orangeHover whiteText"> Cardio </a><hr></li>
+                                    <li class="styleNone padding"><a href="index.html" class="bold decorationNone orangeHover whiteText"> Weight Losing Program </a><hr></li>
+                                    <li class="styleNone padding"><a href="index.html" class="bold decorationNone orangeHover whiteText"> Personal Training </a></li>
+                                </ul>
+                            </div>
+                            <li class="styleNone orangeHover inline"><a href="education.html" class="bold decorationNone whiteText"><i class="fa fa-1x fa-graduation-cap"></i> Inspirations</a> | </li>
+                            <li class="styleNone orangeHover inline"><a href="about.html" class="bold decorationNone whiteText"><i class="fa fa-1x fa-book-open"></i> About</a> | </li>
+                            <li class="styleNone orangeHover inline"><a href="contact.html" class="bold decorationNone whiteText"><i class="fa fa-1x fa-map-marked-alt"></i> Contact</a></li>
+                        </ul>
+                        <div class="margin20 inline">
+                            <form class="inline" method="get">
+                                <input type="text" name="search" class="inline border0 whiteText padding" placeholder="  Search" id="search">
+                                <button type="submit" class="inline border0 redBackground whiteText bold">&nbsp;Search&nbsp;<i class="fa padding fa-search"></i></button>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        
+            <!--login modal-->
+        <div class="modal border none" id="loginModal" >
+            <div class="modalHeader center">
+                <i class="fa fa-7x  fa-user-circle"></i>
+                <button class="closeButton xlarge padding" onclick="close()">&times;</button>
+            </div><br>
+            <div>
+                <form name="login" action="#" method="post">
+                    <label class="margin large">Email&nbsp;</label><input type="text" required class="padding  block formInput" placeholder="Enter your email here"><br>
+                    <label class="margin large">Password&nbsp;</label><input type="password" placeholder="Enter your password here" required class="block padding formInput marginBottom">
+                </form>
+            </div>
+        </div>
+        </header>
+            
+    
+    
+    <main>
+        <section class="borderTop">
+            <h1 class="underline blueHover red margin center jumbo">Weight Loss Program</h1>
+            <img src="img/weightLose.jpg"class=" banner border">
+<!--
+            <div class="marginLeft30">
+                <h2 class="inline">Are you suffering from over weight?</h2>
+                <h3 class="marginTop inline">Don't worry! lets face it. We are ther to help you.</h3><br>
+                <p class="inline">Take our </p><h1 class="inline">4 weeks to fit from fat challenge </h1><p class="inline">&nbsp;and <span class="italic  bold underline">lose upto 20 punds in just 4 weeks.</span></p>
+            </div>
+-->
+        </section>
+        <div class="clearBoth"></div>
+    </main>
+    
+    
+    
+    
+    
+    
+    <footer>
+            <section class="blackBackground padding marginTop   marginBottom35">
+                <a href="#" class="decorationNone blueHover whiteText"><i class="fab fa-3x margin fa-facebook"></i></a>   
+                <a href="#" class="decorationNone blueHover whiteText"><i class="fab fa-3x margin fa-twitter"></i></a>            
+                <a href="#" class="decorationNone blueHover whiteText"><i class="fab fa-3x margin fa-instagram"></i></a>            
+                <a href="#" class="decorationNone blueHover whiteText"><i class="fab fa-3x margin fa-youtube"></i></a>            
+                <p class="whiteText bold inline marginLeft30 italic">"Three months from now, you would thankful to yourself."&nbsp;<a href="#" class="blueHover pointer orange" onclick="subscribe()">Join Now</a></p>
+                <p class="whiteText bold inline marginLeft30 paddingLeft20"><span class="marginBottom">For more information</span><br>Contact us: 
+                    <a href="tel:+1(437)972-4379" class="decorationNone marginLeft30 magin20"> <i class="fas fa-phone"></i></a>
+                    <a href="maitlo:s.tejinderpalsingh@gmail.com" class="decorationNone margin20"> <i class="fas fa-envelope"></i></a></p>
+            </section>
+            <div class="footerBar">
+            <section class="border bar shadow zero bottom right">
+                <label id="footerLabel" class="inline zero">
+                    <h4 class="zero inline marginLeft marginTop">A Brampton based fitness club.</h4>
+                    <h5 class="zero marginLeft zero inline">"A step towards fitness"</h5>
+                </label>
+                <h5 class="padding zero white">A Project By Lovepreet Kaur, Prabhjot Singh Gill, Tejinder Pal Singh.</h5>
+                <a href="#"><img src="img/girlishBicep.gif" class="inline clearBoth imgAlign"  alt="Inspiring Animation" id=""></a>
+            </section>
+            </div>
+            
+            
+<!--
+            
+            
+            <section id="chatBox">
+            </section>
+-->
+        </footer>
+
+    
+    </body>
+    
+</html>
